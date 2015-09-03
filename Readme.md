@@ -7,7 +7,7 @@
 [![build status](https://secure.travis-ci.org/Soarez/express-ejs-layouts.png)](http://travis-ci.org/Soarez/express-ejs-layouts)
 
 ## Installation
-    npm install express-ejs-layouts
+    npm install @naholyr/express-ejs-layouts
 
 ## Usage
     var express = require('express')
@@ -75,6 +75,14 @@ Renders
 Enabling invididually:
 
     req.render('view', { parseScript: true })
+
+### Style blocks extraction
+
+Works exactly like script blocks extraction except:
+
+* Supported tags are ``<link rel="stylesheet" …>`` and ``<style …>``
+* The option is named ``parseStyle``
+* The template variable in layout is ``style``
 
 ## Optional sections
 
