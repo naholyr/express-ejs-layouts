@@ -1,13 +1,13 @@
 {
   "author": "Igor Soarez <igorsoarez@gmail.com>",
-  "name": "express-ejs-layouts",
-  "description": "Layout support for ejs in express.",
+  "name": "@naholyr/express-ejs-layouts",
+  "description": "Layout support for ejs in express (fork by naholyr).",
   "keywords": [
     "express",
     "layout",
     "ejs"
   ],
-  "version": "1.1.0",
+  "version": "2.0.0",
   "main": "lib/express-layouts.js",
   "dependencies": {},
   "devDependencies": {
@@ -24,5 +24,5 @@
   "scripts": {
     "test": "make test"
   },
-  "repository": "git://github.com/Soarez/express-ejs-layouts.git"
+  "repository": "git://github.com/naholyr/express-ejs-layouts.git"
 }
